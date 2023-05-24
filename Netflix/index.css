@@ -1,0 +1,19 @@
+body{
+    background-image: url(img/Netflix1.jpg) ;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+justify-content: space-between;
+}
+
+select{
+    justify-content: end;
+    color: white;
+    
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

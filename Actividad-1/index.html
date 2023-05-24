@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad-1 </title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fontello.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h1>Fruit Export</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a class="option" href="">Inicio</a>
+                <a class ="option" href="">Acerca De</a>
+                <a class="option" href="#Blog">Blog</a>
+                <a href="formulario.html">Registrate</a>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="frut">
+            <img src="img/fruta.jpg" alt="">
+            <div class="contenedor">
+                <h2>Tu mejor eleccion</h2>
+                <p>¿En que tipo de fruta estas interesado?</p>
+                <a target="_blank"
+                    href="https://www.legiscomex.com/Documentos/pasos-para-exportar-fruta-fresca-en-colombia"
+                    href="#">Leer mas</a>
+            </div>
+        </section>
+        <section id="bienvenidos">
+            <h2>BIENVENIDOS A NUESTRO PORTAL</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatum deleniti error cum consequatur non tempora architecto aut molestiae. Necessitatibus, id.</p>
+        </section>
+        <section id="Blog">
+            <h3>¡Vamos a echar un vistazo!</h3>
+            <div class="contenedor">
+                <fruta>
+                    <img src="img/aguacate.jpg" onmouseover="this.src='img/aguacate2.jpg'"
+                        onmouseout="this.src='img/aguacate.jpg'">
+                    <h3>Aguagate</h3>
+                </fruta>
+                <fruta>
+                    <iframe src="https://www.youtube.com/embed/GQwJnic3Bb8" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <h3>Banano</h3>
+                </fruta>
+                <fruta>
+                    <img src="img/piña.png" onmouseover="this.src='img/piña2.jpg'" onmouseout="this.src='img/piña.png'">
+                    <h3>Piña</h3>
+                </fruta>
+            </div>
+        </section>
+        <footer>
+            <p>Derechos de autor © 2023. Fruit Export.</p>
+            <p>Contáctanos en Fruitexport@compañia.com</p>
+        </footer>
+    </main>
+    <script src="">
+        const menu =document.getElementsByClassName("menu")
+        const option =document.getElementsByClassName("option")
+        option.addEventListener("click", ()=>{
+            menu.classList.add("ocultar")
+            console.log("hola")
+        })
+    </script>
+</body>
+
+</html>
